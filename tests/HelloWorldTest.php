@@ -22,7 +22,7 @@ class HelloWorldTest extends TestCase
     public function exception(): void
     {
         $this->expectException(Exception::class);
-        $this->expectExceptionMessage('直の代入はできない');
+        $this->expectExceptionMessage('値の代入はできない');
 
         $expected = new HelloWorld();
         $expected->say = 'Hell0'; 

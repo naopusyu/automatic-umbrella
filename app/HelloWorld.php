@@ -9,7 +9,7 @@ use Exception;
 class HelloWorld
 {
     public string $say {
-        set => throw new Exception('直の代入はできない');
+        set => throw new Exception('値の代入はできない');
         get => 'Hello World';
     }
 }
